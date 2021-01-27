@@ -12,38 +12,7 @@
     <packaging>pom</packaging>
 
     <description/>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>com.oracle.adf.plugin</groupId>
-                <artifactId>ojdeploy</artifactId>
-                <version>12.2.1-3-0</version>
-                <configuration>
-                    
-                    <workspace>
-                        ${basedir}/../DemoApplication.jws
-                    </workspace>
-                    <project>
-                        DemoProject
-                    </project>
-                    <profile>
-                        DemoProject
-                    </profile>
-                    <outputfile>
-                        ${project.build.directory}/${project.build.finalName}.${project.packaging}
-                    </outputfile>
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>deploy</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
+    
         <properties>
         <oracleUsername>weblogic</oracleUsername>
         <oraclePassword>welcome1</oraclePassword>
