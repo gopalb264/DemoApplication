@@ -48,6 +48,6 @@
         <oracleUsername>weblogic</oracleUsername>
         <oraclePassword>welcome1</oraclePassword>
         <oracleHome>C:\Oracle\Middleware12213\Oracle_Home</oracleHome>
-        <oracleServerUrl>http://localhost:7001</oracleServerUrl>
+        <oracleServerUrl>http://localhost:7101</oracleServerUrl>
     </properties>
 </project>
