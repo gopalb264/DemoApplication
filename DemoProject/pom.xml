@@ -8,13 +8,13 @@
     <packaging>jar</packaging>
     <dependencies>  
           <dependency>  
-               <groupId>DemoApplication.servicebus</groupId>  
+               <groupId>DemoApplication</groupId>  
                <artifactId>DemoProject</artifactId>  
                <version>1.0</version>  
                <type>sbar</type>  
           </dependency>  
           <dependency>  
-               <groupId>DemoApplication.servicebus</groupId>  
+               <groupId>DemoApplication</groupId>  
                <artifactId>DemoProject</artifactId>  
                <version>1.0</version>  
                <type>pom</type>  
